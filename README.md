@@ -8,9 +8,13 @@ It’s very easy to use without modifying any code.<br>
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like CUSLayout in your projects. See the ["Getting Started" guide for more information](https://github.com/JJMM/CUSLayout/wiki/Getting-Started-with-CUSLayout).
 
 #### Podfile
-
+###原版本
 ```
 pod "SafeKit"
+```
+###此版本
+```
+pod 'SafeKit', :git => 'https://github.com/A-Dirt/SafeKit.git'
 ```
 ------------------------------------
 
@@ -68,4 +72,4 @@ SafeKit is licensed under the terms of the [Apache License, version 2.0](http://
 
 Contributions are totally welcome. We'll review all pull requests and if you send us a good one/are interested we're happy to give you push access to the repo. Or, you know, you could just come work with us.<br>
 
-Please pay attention to add Star, your support is my greatest motivation, thank you.
+Please pay attention to add Star, your support is my greatest motivation, thank you.
